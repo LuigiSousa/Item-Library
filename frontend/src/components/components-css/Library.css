@@ -1,0 +1,39 @@
+#library-container { 
+    height: 100%;
+    width: 100%;
+    
+}
+
+#library-items-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    padding: 1rem;
+    height: 100%;
+}
+
+#item-card {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+    text-align: center;
+}
+
+#item-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.4);
+}
+
+#item-card img {
+    width: 35vh;
+    height: 30vh;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    padding: 0%;
+}
+
+#library-h3 {
+    font-size: 2.5rem;
+}

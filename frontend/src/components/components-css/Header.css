@@ -1,0 +1,37 @@
+#header-container {
+    display: flex;
+    justify-content: unsafe;
+    align-items: center;
+    padding: 0 1rem;
+    height: 4rem;
+    background-color: #fff;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+    position: sticky;
+}
+
+h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+#header-links {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding:  0 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    margin-left: 2rem;
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: #000;
+}
